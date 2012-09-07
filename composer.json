@@ -6,7 +6,7 @@
         "symfony/finder": "v2.0.16"
     },
     "bin": ["bin/dbunit", "bin/phpcov", "bin/phpcpd", "bin/phpdcd", "bin/phploc", "bin/phpunit", "bin/phpunit-skelgen"],
-    "include-path": ["src/phpunit", "src/phpunit"],
+    "include-path": ["src/phpunit"],
     "autoload": {
         "classmap": ["src/phpunit"]
     }
