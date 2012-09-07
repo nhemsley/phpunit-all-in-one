@@ -8,6 +8,22 @@
     "bin": ["bin/dbunit", "bin/phpcov", "bin/phpcpd", "bin/phpdcd", "bin/phploc", "bin/phpunit", "bin/phpunit-skelgen"],
     "include-path": ["src"],
     "autoload": {
-        "classmap": ["src"]
+        "classmap": [
+            "src/dbunit",
+            "src/finder-facade-fix",
+            "src/php",
+            "src/php-code-coverage",
+            "src/phpcov",
+            "src/phpcpd",
+            "src/phpdcd",
+            "src/php-file-iterator",
+            "src/phploc",
+            "src/php-text-template",
+            "src/php-timer",
+            "src/php-token-stream",
+            "src/phpunit",
+            "src/phpunit-mock-objects",
+            "src/phpunit-selenium",
+            "src/phpunit-skeleton-generator"]
     }
 }
