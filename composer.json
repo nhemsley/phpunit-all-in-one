@@ -7,6 +7,6 @@
     },
     "bin": ["bin/dbunit", "bin/phpcov", "bin/phpcpd", "bin/phpdcd", "bin/phploc", "bin/phpunit", "bin/phpunit-skelgen"],
     "autoload": {
-        "classmap": ["src/phpunit/"]
+        "classmap": ["src/phpunit"]
     }
 }
